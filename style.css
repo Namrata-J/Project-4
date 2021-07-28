@@ -3,7 +3,7 @@ body{
     margin: 0px;
     background-color: rgb(255, 244, 97);
     background-image: url(https://wallpaperaccess.com/full/27838.jpg);
-    background-repeat:repeat-x;
+    background-repeat:repeat;
     background-attachment: fixed;
     background-size:contain;  
 }
@@ -16,11 +16,11 @@ h1{
     color: rgb(190, 190, 88);
 }
 #txt-area{
-    width: 70%;
+    width: 50%;
     display: block;
     margin:auto;
-    height: 10rem;
-    border-radius: 7rem;
+    height: 8rem;
+    border-radius: 20rem;
     padding: 4rem;
     border: 2px solid rgb(156, 156, 67);
 }
@@ -33,11 +33,11 @@ h1{
     margin-bottom: 2rem;
 }
 #output-text{
-    width: 70%;
+    width: 50%;
     display: block;
     margin:auto;
-    height: 10rem;
-    border-radius: 7rem;
+    height: 8rem;
+    border-radius: 20rem;
     padding: 4rem;
     border: 2px solid rgb(156, 156, 67);
 }
