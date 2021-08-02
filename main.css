@@ -1,0 +1,35 @@
+body{
+    background-image: url(Images/blue.png);
+    background-position: 0px;
+}
+p{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(183, 187, 139);
+    text-shadow: 0px 5px 5px rgba(245, 236, 236, 0.4);
+}
+div{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+a{
+    padding: .7rem 2rem;
+    background-color: rgb(66, 116, 113);
+    color: white;
+    text-decoration: none;
+    border-radius: 3rem;
+}
+a:hover{
+    background-color: rgb(183, 187, 139);
+    color: rgb(32, 30, 30);
+}
+img{
+    max-height: 600px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
