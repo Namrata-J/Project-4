@@ -1,57 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body{
-    margin: 0px;
-    background-image: url(https://wallpaperaccess.com/full/27838.jpg);
-    background-repeat:repeat;
-    background-attachment: fixed;
-    background-size:contain;  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    text-shadow: 0px 5px 5px rgba(245, 236, 236, 0.4);
-    font-size: 2.5em;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 4rem;
-    color: rgb(190, 190, 88);
+
+body {
+    background-color: rgba(242, 255, 197, 1);
 }
-#txt-area{
-    width: 50%;
-    display: block;
-    margin:auto;
-    height: 8rem;
-    border-radius: 20rem;
-    padding: 4rem;
-    border: 2px solid rgb(156, 156, 67);
-}
-#btn-translate{
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
-    border-radius: 3rem;
-    margin: auto;
-    display: block;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    position: relative;
+    height: 100vh;
 }
-#output-text{
-    width: 50%;
-    display: block;
-    margin:auto;
-    height: 8rem;
-    border-radius: 20rem;
-    padding: 4rem;
-    border: 2px solid rgb(156, 156, 67);
+
+img {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    z-index: -1;
 }
-#btn-translate:hover{
-    background-color: rgb(187, 181, 181);
+
+h1,
+footer {
+    font-family: 'Montserrat', sans-serif;
 }
-#end-section{
-    height: 20vh;
+
+textarea {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0.2rem;
+    margin: 2rem;
+    min-height: 30vh;
+    padding: 1rem;
+    width: 90%;
 }
-#footer{
-    padding: 3rem;
-    margin: 0px;
+
+button {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    padding: 1rem 5rem;
     text-align: center;
-    background-color: rgb(19, 18, 18);
-    color: blanchedalmond;
-    border-top-left-radius: 3rem;
-    border-top-right-radius: 3rem;
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+footer div {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 780px) {
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
 }
